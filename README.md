@@ -337,6 +337,7 @@ pgsql2 and pgsql3 as slave
 Our last step install HAproxy service to give us an endpoint to which the application can connect to the database.
 
 ```
+sudo add-apt-repository ppa:vbernat/haproxy-2.8
 sudo apt -y install haproxy
 ```
 
